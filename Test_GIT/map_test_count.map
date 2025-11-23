@@ -41,7 +41,7 @@
     <constraint id="_y6J8u8heEfCDvvSfQLWGCQ" name="fk_phone_customer" ref="resource.md#_gtNm-KTfEfCbCf6ZgUxAXQ?fileId=_Rs3zkKTfEfCbCf6ZgUxAXQ$type=md$name=fk_phone_customer?" reject="true"/>
     <setDescriptor id="_y6J8vMheEfCDvvSfQLWGCQ" label="A"/>
   </datastore>
-  <template id="_y6J8vcheEfCDvvSfQLWGCQ" name="I_t_phone" process="resource.proc#_dQ2dRp4SEd6bQIkgWyxFQQ?fileId=_dQ2dRp4SEd6bQIkgWyxFQQ$type=proc$name=INTEGRATION%20PostgreSql?" targetId="_y6JVqsheEfCDvvSfQLWGCQ"/>
+  <template id="_5YiRNshlEfC4jdw21-PozQ" name="I_t_phone" targetId="_y6JVqsheEfCDvvSfQLWGCQ"/>
   <dataSet id="_y6J8vsheEfCDvvSfQLWGCQ">
     <container>_y6JVocheEfCDvvSfQLWGCQ</container>
   </dataSet>
