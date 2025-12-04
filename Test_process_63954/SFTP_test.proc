@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc:process xmlns:proc="http://www.example.org/proc" id="d619c4e9-ac00-4912-8f8a-3f579fd1be20">
+  <actionCode id="3d681926-aa2f-4bbb-81d5-38f2d7d07c30" isBeginAction="false" name="Run SFTP Commands" nbCycles="-1" toleratedError="false" technology="com.indy.engine.actionCodes.SFtpExecActionCodeI">
+    <parameter id="5144381b-0014-4cfb-92cb-8790f231c0f2" name="SSH_HOST" type="String"/>
+    <parameter id="87033118-b8b3-4fc0-a84c-ecc1efe0b810" name="SSH_USER" type="String"/>
+  </actionCode>
+  <actionCode id="430054a5-086f-4981-9bc4-83b72c46e1f3" isBeginAction="false" name="Send files with SCP" nbCycles="-1" toleratedError="false" technology="com.indy.engine.actionCodes.ScpPutActionCodeI">
+    <parameter id="63f928f9-14d9-4116-bd9e-7b7d8c970f51" name="SSH_HOST" type="String"/>
+    <parameter id="a4a8a260-bbbb-44ae-b8ed-f4b0749b01a2" name="SSH_USER" type="String"/>
+    <parameter id="9c0f240e-de70-4579-b3ce-3fbc1cd983ed" name="SCP_REMOTE_DIR" type="String"/>
+  </actionCode>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:proc="http://www.example.org/proc" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation http://www.eclipse.org/gmf/runtime/1.0.3/notation#/?fileId=d619c4e9-ac00-4912-8f8a-3f579fd1be20?" xmi:id="_6zcxcLk6EfCVGoy8ntlvmw" type="Proc" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_I46QQLk7EfCVGoy8ntlvmw" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_I5FPYLk7EfCVGoy8ntlvmw" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_I5LWALk7EfCVGoy8ntlvmw" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_I5LWAbk7EfCVGoy8ntlvmw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_I5LWArk7EfCVGoy8ntlvmw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_I5LWA7k7EfCVGoy8ntlvmw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_I5PAYLk7EfCVGoy8ntlvmw" type="7002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_I5PAYbk7EfCVGoy8ntlvmw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_I5PAYrk7EfCVGoy8ntlvmw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_I5PAY7k7EfCVGoy8ntlvmw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_I463ULk7EfCVGoy8ntlvmw" fontName="Segoe UI"/>
+    <element xmi:type="proc:ActionCode" href="resource.proc#3d681926-aa2f-4bbb-81d5-38f2d7d07c30?fileId=d619c4e9-ac00-4912-8f8a-3f579fd1be20$type=proc$name=Run%20SFTP%20Commands?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I463Ubk7EfCVGoy8ntlvmw" x="176" y="93"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_JjKuMLk7EfCVGoy8ntlvmw" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_JjQNwLk7EfCVGoy8ntlvmw" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_JjQNwbk7EfCVGoy8ntlvmw" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_JjQNwrk7EfCVGoy8ntlvmw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_JjQNw7k7EfCVGoy8ntlvmw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_JjQNxLk7EfCVGoy8ntlvmw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_JjQ00Lk7EfCVGoy8ntlvmw" type="7002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_JjQ00bk7EfCVGoy8ntlvmw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_JjQ00rk7EfCVGoy8ntlvmw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_JjQ007k7EfCVGoy8ntlvmw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_JjKuMbk7EfCVGoy8ntlvmw" fontName="Segoe UI"/>
+    <element xmi:type="proc:ActionCode" href="resource.proc#430054a5-086f-4981-9bc4-83b72c46e1f3?fileId=d619c4e9-ac00-4912-8f8a-3f579fd1be20$type=proc$name=Send%20files%20with%20SCP?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JjKuMrk7EfCVGoy8ntlvmw" x="566" y="185"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_6zcxcbk6EfCVGoy8ntlvmw"/>
+  <element xmi:type="proc:ActionProcess" href="resource.proc#d619c4e9-ac00-4912-8f8a-3f579fd1be20?fileId=d619c4e9-ac00-4912-8f8a-3f579fd1be20$type=proc$name=SFTP_test?"/>
+</notation:Diagram>
+]]></diagram>
+</proc:process>
